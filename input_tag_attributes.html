@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML5 Input Element:</h1>
+    <h3>Attributes for the Input Tag</h3>
+    <ul>
+        <li>
+            <input type="color"> <br>
+            <p>The <strong> input type color </strong> attribute allows the user to select a color.</p>
+            <p>In non-supporting browsers, this input type is displayed as a regular text input field into which the user might type a valid color name or color code.</p>
+        </li>
+        <li>
+            <input type="date"> <br>
+            <p>The <strong> datetime-local attribute </strong> provides input for a date and time (year, month, day, hour, minute, AM/PM) with no time zone.</p>
+        </li>
+        <li>
+            <input type="datetime-local"/>
+            <p>The <strong> datetime-local input field </strong> is displayed as a drop-down calendar in the Google Chrome browser.</p>
+        </li>
+        <li>
+            <input type="email" placeholder="email@email.com">
+            <p>The input type="email" attribute is displayed as a regular text input field. It provides feedback when the input does not follow the email format.</p>
+            <p>Placeholder text is used to provide hints of what the input text format looks like.</p>
+        </li>
+        <li>
+            <input type="number" min="10" max="21">
+            <p>The input type="number" takes a numeric value as input. You can optionally specify the minimum, maximum values, step size, etc.</p>
+        </li>
+        <li>
+            <input type="range" min="10" max="20">
+            <p>The range attribute displays a slider with a range of values between the minimum and maximum. Only the slider itself is shown.
+                Additional JavaScript code is needed in order to display the value of the slider.</p>
+        </li>
+        <li>
+            <input type="search">
+            <p>The differences between input type="search" / and input type="text" / are mostly in style.</p>
+        </li>
+        <li>
+            <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <p>The input type="tel" pattern="[parameters]" attribute expects a telephone number as input.</p>
+            <p>The required attribute implies that some text must be typed.
+                The requirement to type some input applies even if the field contains placeholder text.</p>
+        </li>
+        <li>
+            <input type="url">
+            <p>The URL attribute is used to validate that the user typed in a properly formatted URL or web address.</p>
+        </li>
+        <li>
+            <input list="some_list">
+            <datalist id="some_list">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Google Chrome">
+                <option value="Opera">
+                <option value="Safari">
+              </datalist>
+            <p>The input list="some_list" uses the datalist feature.
+                Not to be confused with the select element. The datalist options are only suggestions. Useful for auto-complete functionality. You can fill the list by nesting elements inside the datalist tag.</p>
+        </li>
+
+
+
+    </ul>
+
+</body>
+</html>
